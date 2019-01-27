@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+	<bean id="userDao" class="com.web.airplane.dao.UserDao" ></bean>
+	<bean id="airplaneDao" class="com.web.airplane.dao.AirplaneDao" ></bean>	
+	
+	<bean id="itemDao" class="com.web.airplane.dao.ItemDao" ></bean>	
+	<bean id="personDao" class="com.web.airplane.dao.PersonDao" ></bean>	
+	<bean id="flightDao" class="com.web.airplane.dao.FlightDao" ></bean>	
+</beans>
